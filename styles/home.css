@@ -1,0 +1,156 @@
+:root {
+  --secfont: "DM Sans", sans-serif;
+  --mainfont: "Allerta Stencil", sans-serif;
+  --maincolor: #a18a68;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  width: 1440 px;
+  height: 2443 px;
+}
+a {
+  text-decoration: none;
+}
+body {
+  padding: 96px;
+  padding-top: 15px;
+}
+.wrapper {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 1248px;
+  height: 42px;
+  /* border: 3px solid black; */
+  display: inline-block;
+  /* background: #a18a68; */
+}
+.header .logo {
+  float: left;
+  margin-top: 55;
+  margin-left: 2%;
+  font-family: var(--mainfont);
+  font-size: 35px;
+  color: var(--maincolor);
+  border-bottom: 2px solid var(--maincolor);
+}
+
+.header .navbar {
+  height: 100%;
+  margin-bottom: 2px;
+  float: right;
+  /* background: lightblue; */
+  display: inline-flex;
+  margin-right: 10px;
+}
+.header .navbar .menu {
+  /* background: lightgoldenrodyellow; */
+  height: 33px;
+  padding-top: 10px;
+}
+.header .navbar .menu a {
+  padding: 8px;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+}
+.header .navbar .menu a:hover {
+  color: var(--maincolor);
+  font-weight: 700;
+  text-shadow: 1px 1px 8px gray;
+}
+.header .icon-menu a {
+  margin: 2px;
+  margin-left: 5px;
+}
+.header .icon-menu a img {
+  width: 30px;
+  margin-top: 5%;
+}
+.header .icon-menu a img:hover {
+  width: 30px;
+  margin-top: 5%;
+  border-bottom: 3px solid var(--maincolor);
+  transition: 0.5s;
+}
+.body {
+  width: 1248px;
+  height: auto;
+  margin-top: 16px;
+}
+.body .header-body {
+  width: 1248px;
+  height: 646px;
+  background-image: url(../assets/img/header.png);
+}
+.body .header-body .title {
+  position: absolute;
+  width: 352px;
+  height: 43px;
+  left: 135px;
+  top: 348px;
+  font-family: var(--secfont);
+  font-weight: 500;
+  font-size: 33px;
+  color: white;
+  line-height: 43px;
+}
+.body .header-body .price {
+  position: absolute;
+  width: 395px;
+  height: 35px;
+  left: 135px;
+  top: 407px;
+
+  /* 26px - Heading 2 */
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 35px;
+  /* identical to box height, or 135% */
+
+  /* Light Colors/White - Light */
+
+  color: #ffffff;
+}
+.body .header-body button {
+  box-sizing: border-box;
+  position: absolute;
+  width: 193px;
+  height: 53px;
+  left: 135px;
+  top: 490px;
+  background: transparent;
+  /* Light Colors/White - Light */
+
+  border: 2px solid #ffffff;
+  border-radius: 6px;
+}
+.body .header-body button a {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.body .header-body button:hover {
+  background: white;
+  border: 2px solid var(--maincolor);
+  transition: 0.7s;
+}
+.body .header-body button:hover a {
+  color: var(--maincolor);
+  font-weight: 700;
+}
