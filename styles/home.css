@@ -154,3 +154,67 @@ body {
   color: var(--maincolor);
   font-weight: 700;
 }
+
+.body .konten {
+  margin-bottom: 10%;
+}
+.body .konten .nav-konten {
+  margin-top: 5%;
+  /* background: lightsalmon; */
+}
+.body .konten .nav-konten h2 {
+  float: left;
+  font-size: 33px;
+  font-weight: 500;
+  font-family: var(--secfont);
+}
+.body .konten .nav-konten p {
+  float: right;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  font-family: var(--secfont);
+  color: #a18a68;
+  /* color: aqua; */
+}
+
+.body .card-container .card {
+  float: left;
+  /* background: gray; */
+  border-radius: 10px;
+  width: 30%;
+  margin: 20px;
+}
+
+.body .card-container .card img {
+  width: 100%;
+  height: 380px;
+  border-radius: 8px;
+}
+.body .card-container .card h2 {
+  position: relative;
+  left: 35%;
+  font-family: var(--secfont);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: black;
+  font-style: normal;
+}
+.body .card-container .card:hover h2 {
+  font-weight: 900;
+}
+.body .card-container .card:hover img {
+  box-shadow: 1px 2px 3px gray;
+}
+.body .card-container .card p {
+  position: relative;
+  left: 40%;
+  font-family: var(--secfont);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #a18a68;
+  font-style: normal;
+  text-transform: capitalize;
+}
